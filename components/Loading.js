@@ -4,7 +4,6 @@ import { useRouter } from 'next/router'
 import { useState } from 'react'
 import { ExternalLinkIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
-import Image from 'next/image'
 
 export default function Loading({ notionSlug }) {
   const { locale } = useRouter()
@@ -22,12 +21,6 @@ export default function Loading({ notionSlug }) {
       <div className='max-w-screen-2xl px-4 md:px-8 mx-auto'>
         <div className='flex flex-col items-center'>
           <div className='inline-flex items-center gap-2.5 mb-8'>
-          	<Image
-              src='/favicon.png'
-              alt='Logo'
-              width={50}
-              height={50}
-            />
           </div>
 
           <p className='inline-flex items-center text-sm md:text-base font-semibold uppercase mb-4'>
