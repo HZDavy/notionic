@@ -20,7 +20,7 @@ const Layout = ({ blockMap, frontMatter, fullWidth = false, subPage = false }) =
 
   return (
     <Container
-      title={`${frontMatter.title}${frontMatter.title === pageTitle ? '' : ' | ' + pageTitle}`}
+      title={`${frontMatter.title}${frontMatter.title === pageTitle ? '' : ' | ' + pageTitle} | ARCH365`}
       description={frontMatter.summary}
       // date={new Date(frontMatter.publishedAt).toISOString()}
       type='article'
