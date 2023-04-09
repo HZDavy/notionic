@@ -21,7 +21,7 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
   }
 
   return (
-    <Container title=搜索 | ARCH365>
+    <Container title={`搜索 | ARCH365`}>
     <Container>
       <div className='relative'>
         <input
