@@ -20,7 +20,7 @@ const BLOG = {
     notes: false,
     projects: true,
     contact: true,
-    books: true,
+    books: false,
     friends: true
   },
   showWeChatPay: true,
