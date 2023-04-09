@@ -19,7 +19,7 @@ const BLOG = {
     newsletter: true,
     notes: false,
     projects: true,
-    contact: true,
+    contact: false,
     books: true,
     friends: true
   },
