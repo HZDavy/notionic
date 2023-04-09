@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'ARCH365|非典型建筑杂志',
+  title: 'ARCH365 | 非典型建筑杂志',
   author: 'Davy Huang',
   email: 'arch365@yeah.net',
   link: 'https://arch365.cn',
