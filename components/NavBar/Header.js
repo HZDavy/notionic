@@ -41,7 +41,7 @@ const NavBar = () => {
     {
       id: 1,
       name: t.NAV.NEWSLETTER,
-      to: '/past',
+      to: '/newsletter',
       icon: <NewspaperIcon className='inline-block mb-1 h-5 w-5' />,
       show: BLOG.pagesShow.newsletter
     },
