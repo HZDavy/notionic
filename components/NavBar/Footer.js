@@ -44,10 +44,10 @@ const Footer = ({ fullWidth }) => {
     },
     {
       id: 2,
-      name: t.NAV.BOOKS,
-      to: '/books',
+      name: t.NAV.BOOK,
+      to: '/book',
       icon: <BookOpenIcon className='inline-block mb-1 h-5 w-5' />,
-      show: BLOG.pagesShow.books
+      show: BLOG.pagesShow.book
     },
     {
       id: 3,
