@@ -5,7 +5,7 @@ import Tags from '@/components/Common/Tags'
 import PropTypes from 'prop-types'
 import { lang } from '@/lib/lang'
 import { useRouter } from 'next/router'
-<Container title={搜索 | ARCH365}>
+
 const SearchLayout = ({ tags, posts, currentTag }) => {
   const [searchValue, setSearchValue] = useState('')
   const { locale } = useRouter()
@@ -21,6 +21,7 @@ const SearchLayout = ({ tags, posts, currentTag }) => {
   }
 
   return (
+    <Container title=搜索 | ARCH365>
     <Container>
       <div className='relative'>
         <input
