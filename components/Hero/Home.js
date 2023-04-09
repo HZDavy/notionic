@@ -37,7 +37,7 @@ const Hero = ({ blockMap }) => {
           />
           <Social />
           <div className='flex flex-col sm:flex-row sm:justify-center gap-4 mt-6'>
-            <Link passHref href='/about#a0528a23c601437eb10b1da1b8e6c4ad' scroll={true}>
+            <Link passHref href='www.arch365.cn/about#a0528a23c601437eb10b1da1b8e6c4ad' scroll={false}>
               <button className='w-full bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 inline-flex py-3 px-5 rounded-lg items-center'>
                 <MailIcon className='inline-block text-gray-600 dark:text-day h-7 w-7 mt-1' />
                 <span className='ml-4 flex items-start flex-col leading-none'>
