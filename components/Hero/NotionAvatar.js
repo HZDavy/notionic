@@ -6,7 +6,7 @@ const NotionAvatar = (props) => (
     style={{
       justifyContent: 'center',
       alignSelf: 'center',
-      transform: 'scale(-1,1)'
+      transform: 'scale(1,1)'
     }}
     viewBox='0 0 500 500'
     xmlns='http://www.w3.org/2000/svg'
