@@ -8,7 +8,7 @@ const NotionAvatar = (props) => (
       alignSelf: 'center',
       transform: 'scale(-1,1)'
     }}
-    viewBox='-350 -150 1500 1500'
+    viewBox='0 0 500 500'
     xmlns='http://www.w3.org/2000/svg'
     fill='currentColor'
     {...props}
