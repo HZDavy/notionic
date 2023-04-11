@@ -35,7 +35,7 @@ const PostFooter = () => {
             <MailIcon className='flex flex-col justify-center items-center select-none cursor-pointer relative w-5 h-5' />
             {t.LAYOUT.NOTICE_BUTTON}
           </button>
-          </a href>
+          </a>
         </div>
       </div>
       {showPay && <WechatPay />}
